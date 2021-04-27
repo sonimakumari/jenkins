@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-0742b4e673072066f --count 1 --instance-type t1.micro --key-name SonimaNewKP.pem --security-groups SonimaLinux-sg1 --region us-east-1
